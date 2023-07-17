@@ -3066,6 +3066,8 @@ input, select, textarea {
 				padding: 3em 1em 3em 1em;
 			}
 
+		
+
 		/* Header */
 
 			#header {
@@ -3157,4 +3159,8 @@ input, select, textarea {
 						margin-bottom: 2em;
 					}
 
+	}
+
+	.escondida{
+		display: none;
 	}

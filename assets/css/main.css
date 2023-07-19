@@ -211,7 +211,7 @@ h5,
 h6 {
 	font-weight: 400;
 	color: #005497;
-	line-height: 1.25em;
+	line-height: 1em;
 }
 
 h1 a,
@@ -235,7 +235,7 @@ h6 strong {
 }
 
 h2 {
-	font-size: 2.85em;
+	font-size: 2.5em;
 }
 
 h3 {
@@ -301,6 +301,7 @@ table {
 
 p {
 	text-align: justify;
+	line-height: 1.2;
 }
 
 br.clear {
@@ -347,7 +348,7 @@ hr:after {
 .container {
 	margin: 0 auto;
 	max-width: 100%;
-	width: 1400px;
+	width: 1500px;
 }
 
 @media screen and (max-width: 1680px) {
@@ -399,7 +400,7 @@ hr:after {
 	align-items: stretch;
 }
 
-.row>* {
+.row > * {
 	box-sizing: border-box;
 }
 
@@ -565,13 +566,8 @@ hr:after {
 	padding-top: 10px;
 }
 
-.row.gtr-50 {
-	margin-top: -20px;
-	margin-left: -20px;
-}
-
 .row.gtr-50>* {
-	padding: 20px 0 0 20px;
+	padding: 20px;
 }
 
 .row.gtr-50.gtr-uniform {
@@ -1953,6 +1949,7 @@ footer {
 ul {
 	list-style: disc;
 	padding-left: 1em;
+	line-height: 1.3em;
 }
 
 ul li {
@@ -2305,12 +2302,12 @@ header .icon.circled {
 	background: #fff;
 	margin: 0 0 2em 0;
 	padding: 6em 0 6em 0;
-
 }
 
-.wrapper.style2 {
-	padding-top: 0;
-	align-items: left;
+.font-servicos div a{
+	color: #005497;
+	font-weight: 400;
+	text-decoration: none;
 }
 
 /* Header */
@@ -2323,8 +2320,16 @@ header .icon.circled {
 	background-attachment: fixed;
 	color: #fff;
 	text-align: center;
-	padding: 7.5em 0 2em 0;
+	padding: 4em 0 4em 0;
 	cursor: default;
+}
+
+.fundo-nav {
+	position: relative;
+	background-image: url("../../images/foguete.png");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 }
 
 #header:before {
@@ -2350,12 +2355,13 @@ header .icon.circled {
 	font-size: 1.25em;
 	margin: 0;
 	text-align: center;
+	padding: 0em 1.5em 0em 1.5em;
 }
 
 #header h1 {
 	color: #fff;
 	font-size: 3em;
-	line-height: 1em;
+	line-height: 2em;
 }
 
 #header h1 a {
@@ -2400,7 +2406,7 @@ body.homepage #header h1 {
 
 body.homepage #header:after {
 	content: '';
-	background: #1C0920;
+	background: #110f31;
 	display: block;
 	position: absolute;
 	left: 0;
@@ -3323,5 +3329,24 @@ body.homepage.is-preload #header:after {
   .visible {
 	max-height: 100%; /* Ajuste a altura máxima conforme necessário */
 	transition: max-height 0.4s ease-in-out;
-	
   }
+
+.border1{
+	background-color: rgba(147, 208, 248, 0.096);
+	border-radius: 30px 0px;
+	margin-bottom: 0.7em;
+	height: 180px;
+	width: 30%;
+	border: 2px solid #005497;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.btn-contato{
+	width: 230px;
+	height: 50px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+

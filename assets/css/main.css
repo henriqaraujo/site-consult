@@ -393,7 +393,7 @@ hr:after {
 
 /* Row */
 
-.row {
+.row  {
 	display: flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
@@ -3348,5 +3348,15 @@ body.homepage.is-preload #header:after {
 	font-size: 16px;
 	font-weight: 500;
 }
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.grid div{
+	
+}
+
 
 

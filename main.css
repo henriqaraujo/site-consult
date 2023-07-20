@@ -3359,6 +3359,7 @@ body.homepage.is-preload #header:after {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 1.1rem;
+	width: 50%;
 }
 
 .input-box input, select{
@@ -3381,6 +3382,7 @@ body.homepage.is-preload #header:after {
 	font-size: 1.5rem;
 	font-weight: 600;
 	color: #000000c0;
+	
 }
 
 .input-box select, input::placeholder{

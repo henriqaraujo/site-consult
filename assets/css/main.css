@@ -86,8 +86,7 @@ section,
 summary,
 time,
 mark,
-audio,
-video {
+audio{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -2242,6 +2241,10 @@ button.alt:hover,
 	margin: 0;
 }
 
+.post header h3 a {
+	padding-right: 10px;
+}
+
 /* Icons */
 
 .icon {
@@ -3360,8 +3363,12 @@ iframe{
 	height: 520px;
 }
 
-.teste{
-	text-align: center;
+video{
+	margin-top: 100px;
+	width: 50%;
+	height: auto;
 }
 
-
+.espaco-icon{
+	padding-right: 10px;
+}

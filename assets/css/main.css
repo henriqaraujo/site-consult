@@ -2792,6 +2792,13 @@ body.homepage.is-preload #header:after {
 	line-height: 1;
 }
 
+.carousel article:hover{
+	cursor: pointer;
+	background-color: #d0e4f5;
+	opacity: 0.8;
+	transition: 0.7s ease-in;
+}
+
 /* Wide */
 
 @media screen and (max-width: 1680px) {
@@ -3371,4 +3378,8 @@ video{
 
 .espaco-icon{
 	padding-right: 10px;
+}
+
+.pointer{
+	cursor: pointer;
 }

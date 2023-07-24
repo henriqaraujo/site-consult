@@ -348,7 +348,7 @@ hr:after {
 .container {
 	margin: 0 auto;
 	max-width: 100%;
-	width: 1500px;
+	width: 75%;
 }
 
 @media screen and (max-width: 1680px) {
@@ -2644,6 +2644,7 @@ body.homepage.is-preload #header:after {
 
 #footer .contact {
 	text-align: center;
+	margin-top: 100px;
 }
 
 #footer .contact p {
@@ -3354,9 +3355,13 @@ body.homepage.is-preload #header:after {
 	grid-template-columns: 1fr 1fr;
 }
 
-.grid div{
-	
+iframe{
+	width: 620px;
+	height: 520px;
 }
 
+.teste{
+	text-align: center;
+}
 
 

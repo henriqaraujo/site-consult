@@ -1,4 +1,3 @@
-/*
 const link1 = document.getElementById('mostrar1');
 const link2 = document.getElementById('mostrar2');
 const link3 = document.getElementById('mostrar3');
@@ -63,7 +62,5 @@ if(displayAtual === 'none'){
     article5.style.display = 'none';
 }
 });
-
-*/
 
 

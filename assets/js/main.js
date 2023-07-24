@@ -215,20 +215,3 @@
 		});
 
 })(jQuery);
-
-/*Animação ao selecionar serviço*/
-
-function toggleVisibility(option) {
-	var options = ['optionA', 'optionB', 'optionC', 'optionD', 'optionE'];
-	
-	for (var i = 0; i < options.length; i++) {
-	  var element = document.getElementById(options[i]);
-
-	  
-	  if (options[i] === option) {
-		element.classList.add('visible');
-	  } else {
-		element.classList.remove('visible');
-	  }
-	}
-  }

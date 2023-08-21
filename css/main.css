@@ -1357,3 +1357,10 @@ iframe{
 	height: 500px;
 }
 
+.success{
+	color: greenyellow;
+}
+
+.error{
+	color: tomato;
+}

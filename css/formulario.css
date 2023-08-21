@@ -23,8 +23,11 @@
 	background-color: #eeeeee75;
 }
 
+
+
 .input-box:focus-visible{
 	outline: 1px solid #ff6363;
+	text-decoration: none;
 }
 
 .input-box label{
@@ -36,7 +39,7 @@
 
 .input-box select, input::placeholder{
 	color: #000000be;
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 
 .enviar-dados{

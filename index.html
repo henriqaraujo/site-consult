@@ -76,54 +76,55 @@
 
 		<!-- Carousel -->
 		<section class="carousel">
-			<div class="reel">
-
-				<article>
-					<a href="servicos.html" onclick="toggleVisibility('optionB')" class="image featured"><img
-							src="images/contabilidade.jpg" alt="" /></a>
+			<div id="option" class="reel">
+			
+				<article id="optionA" onclick="redirecionarParaPagina()">
+					<a class="image featured"><img src="images/escritorio_2.jpg" alt="" /></a>
 					<header>
-						<h3><a href="servicos.html" onclick="toggleVisibility('optionB')">Consultoria Contábil e
-								Auditoria</a></h3>
+						<h3><a>Compensação de Impostos</a></h3>
 					</header>
-					<p>Ajudamos os executivos a compreender as alterações ainda pendentes e avaliar seu impacto nas
-						empresas.</p>
+					<p>Temos como objetivo a Revisão Fiscal Tributária, por meio da recuperação de impostos recolhidos
+						indevidamente.</p>
+				</article>
+				
+				<article id="optionB" onclick="redirecionarParaPagina()">
+					<a class="image featured"><img src="images/contabilidade.jpg" alt="" />
+						<header>
+							<h3><a>Consultoria Contábil e Auditoria</a></h3>
+						</header>
+						<p>Ajudamos os executivos a compreender as alterações ainda pendentes e avaliar seu impacto nas empresas.</p>
+					</a>
 				</article>
 
-				<article>
-					<a href="servicos.html" class="image featured"><img src="images/fiscal.jpg" alt="" /></a>
-					<header>
-						<h3><a href="servicos.html">Planejamento Tributário e Fiscal</a></h3>
-					</header>
-					<p>Assessoria nossos em diferentes tipos de tributos que incidem sobre operações nacionais e
-						internacionais.</p>
+				<article id="optionC" onclick="redirecionarParaPagina()">
+					<a class="image featured"><img src="images/fiscal.jpg" alt="" />
+						<header>
+							<h3><a>Planejamento Tributário e Fiscal</a></h3>
+						</header>
+						<p>Assessoria nossos em diferentes tipos de tributos que incidem sobre operações nacionais e internacionais.</p>
+					</a>
+				</article>
+				
+				<article id="optionD" onclick="redirecionarParaPagina()">
+					<a class="image featured" href="servicos.html"><img src="images/rh.jpg" alt="" />
+						<header>
+							<h3><a>Recursos Humanos</a></h3>
+						</header>
+						<p>Com as mudanças na lei trabalhista, temos como objetivo reduzir encargos que suprem os lucros
+							das empresas.</p>
+					</a>
 				</article>
 
-				<article>
-					<a href="servicos.html" class="image featured"><img src="images/rh.jpg" alt="" /></a>
+				<article id="optionE" onclick="redirecionarParaPagina()">
+					<a class="image featured"><img src="images/constituicao.jpg" alt="" /></a>
 					<header>
-						<h3><a href="servicos.html">Recursos Humanos</a></h3>
-					</header>
-					<p>Com as mudanças na lei trabalhista, temos como objetivo reduzir encargos que suprem os lucros das
-						empresas.</p>
-				</article>
-
-				<article>
-					<a href="servicos.html" class="image featured"><img src="images/constituicao.jpg" alt="" /></a>
-					<header>
-						<h3><a href="servicos.html">Constituição de Empresas</a></h3>
+						<h3>Constituição de Empresas</h3>
 					</header>
 					<p>Serviços de reorganização societária, desde uma microempresa até mesmo empresas de capital aberto
 						(S.A).</p>
 				</article>
 
-				<article>
-					<a href="servicos.html" class="image featured"><img src="images/escritorio_2.jpg" alt="" /></a>
-					<header>
-						<h3><a href="servicos.html">Compensação de Impostos</a></h3>
-					</header>
-					<p>Temos como objetivo a Revisão Fiscal Tributária, por meio da recuperação de impostos recolhidos
-						indevidamente.</p>
-				</article>
+			</div>
 		</section>
 
 		<!-- Main -->
@@ -156,7 +157,7 @@
 					Comprometimento com a excelência da concepção à entrega. Nossa meta é simplificar e identificar
 					respostas claras e corretas comunicando-as de forma positiva.
 				</p>
-				<div><a href="#" class="featured"><video src="images/Institucional Consult.mp4" type="mp4" controls></a>
+				<div><a class="featured"><video src="images/Institucional_consult.mp4" type="mp4" controls></a>
 				</div>
 			</article>
 		</div>
@@ -177,7 +178,7 @@
 							<li>
 								<article class="post stub">
 									<header>
-											<h3><a class="icon fa-image"></a>Os mehores profissionais do mercado</h3>
+										<h3><a class="icon fa-image"></a>Os melhores profissionais do mercado</h3>
 									</header>
 									<span class="timestamp">A produção industrial caiu 0,5% em março ante fevereiro, na
 										série com ajuste sazonal, divulgou há pouco o Instituto Brasileiro de Geografia
@@ -187,7 +188,8 @@
 							<li>
 								<article class="post stub">
 									<header>
-										<h3><a class="icon solid fa-wrench"></a>Procuramos corrigir as contabilidade tributária
+										<h3><a class="icon solid fa-wrench"></a>Procuramos corrigir as contabilidade
+											tributária
 										</h3>
 									</header>
 									<span class="timestamp">A piora na avaliação sobre a situação atual levou a uma
@@ -214,7 +216,8 @@
 							<li>
 								<article class="post stub">
 									<header>
-										<h3><a class="icon solid fa-check"></a>Empresa de atendimento extraordinário</h3>
+										<h3><a class="icon solid fa-check"></a>Empresa de atendimento extraordinário
+										</h3>
 									</header>
 									<span class="timestamp">A piora na avaliação sobre a situação atual levou a uma
 										queda na confiança dos empresários do setor de Serviços em abril, informou nesta
@@ -223,7 +226,6 @@
 							</li>
 						</ul>
 					</section>
-
 				</div>
 
 				<div class="row">
@@ -270,6 +272,13 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+
+	<script>
+		function redirecionarParaServico(servicoId) {
+			window.location.href = `servicos.html?servico=${servicoId}`;
+		}
+	</script>
+
 
 </body>
 

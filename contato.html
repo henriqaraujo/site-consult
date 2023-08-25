@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
@@ -11,7 +6,13 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="css/formulario.css" />
+	<link rel="stylesheet" href="css/media-screen.css" />
+	<link rel="stylesheet" href="css/rows.css"/>
+	<link rel="stylesheet" href="css/tags.css"/>
+	<link rel="stylesheet" href="css/header.css"/>
+	<link rel="stylesheet" href="css/nav.css"/>
+	<link rel="stylesheet" href="css/footer.css"/>
+	<link rel="stylesheet" href="css/formulario.css"/>
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -36,7 +37,6 @@
 					<li><a href="index.html">INÍCIO</a></li>
 					<li><a href="servicos.html">SERVIÇOS</a></li>
 					<li><a href="contato.html">CONTATO</a></li>
-					<li><a href="no-sidebar.html">No Sidebar</a></li>
 
 					<li>
 						<a href="#">MENU</a>
@@ -71,37 +71,34 @@
 						<article id="main">
 							<header><h2><a href="#"></a></h2></header>
 
-							<form action="https://formsubmit.co/ajax/tecnologia@consultassessoria.com.br" method="POST" data-form>
-								<div class="form-header">
+							<form action="https://formsubmit.co/ajax/tecnologia@consultassessoria.com.br" method="POST">
 
+								<input type="hidden" name="_next" value="http://127.0.0.1:5501/contato.html#"/>
+
+								<div class="form-header">
 									<div class="inputs-group"> 
 										<div class="input-box">
-											<label for="primeironome">Primeiro nome</label>
-											<input id="primeironome" type="text" name="primeironome" placeholder="Digite seu nome" required>
-										</div> 
-
-										<div class="input-box">
-											<label for="ultimonome">Sobrenome</label>
-											<input id="ultimonome" type="text" name="ultimonome" placeholder="Digite seu Sobrenome" required>
+											<label for="nome">Nome completo</label>
+											<input id="nome" name="nome" type="text" placeholder="Digite seu nome" required>
 										</div> 
 
 										<div class="input-box">
 											<label for="email">E-mail</label>
-											<input id="email" type="text" name="email" placeholder="Digite seu e-mail" required>
+											<input id="email" name="email" type="text" placeholder="Digite seu Sobrenome" required>
 										</div> 
 
 										<div class="input-box">
 											<label for="telefone">Telefone</label>
-											<input id="telefone" type="number" name="telefone" placeholder="(00) 1234-5678" required>
+											<input id="telefone" name="telefone" type="text" placeholder="(00) 1234-5678" required>
 										</div> 
 
 										<div class="input-box">
 											<label for="cidade">Cidade</label>
-											<input id="cidade" type="text" name="cidade" placeholder="Digite sua cidade" >
+											<input id="cidade" name="cidade" type="text" placeholder="Digite sua cidade" >
 										</div> 
 
 										<div class="input-box">
-											<label for="cidade">Estado</label>
+											<label for="estado">Estado</label>
 											<select name="estado" aria-placeholder="estado">
 												<option value="">Selecione seu estado</option>
 												<option value="ac">Acre</option>
@@ -135,25 +132,24 @@
 										</div>
 
 										<div class="input-box">
-											<label for="cidade">Assunto</label>
-											<select name="estado" aria-placeholder="estado">
-												<option value="">Selecione seu estado</option>
-												<option value="ac">Orçamento</option>
-												<option value="al">Reclamação</option>
-												<option value="ap">Elogio</option>
+											<label for="assunto">Assunto</label>
+											<select name="assunto" aria-placeholder="assunto">
+												<option value="">Selecione um assunto</option>
+												<option value="orcamento">Orçamento</option>
+												<option value="reclamacao">Reclamação</option>
+												<option value="elogio">Elogio</option>
 											</select>
 										</div> 
 
 										<div class="input-box">
 											<label for="mensagem">Mensagem</label>
-											<textarea id="mensagem" type="text" name="mensagem" placeholder="Digite aqui sua mensagem..." required></textarea>
+											<textarea id="mensagem" type="text" name="mensagem" placeholder="Digite aqui sua mensagem..." rows="6px" required></textarea>
 										</div> 
 									</div>
 								</div>
 
-						
-									<button type="submit" class="enviar-dados" data-button><a href="#">Enviar mensagem</a></button>
-							
+									<button type="submit" class="enviar-dados"><a href="#">Enviar mensagem</a></button>
+				
 							</form>
 						</article>
 					</div>
@@ -214,6 +210,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/send-form.js"></script>
 
 </body>
 

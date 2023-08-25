@@ -893,7 +893,7 @@ header .icon.circled {
 
 #header {
 	position: relative;
-	background-image: url("../../images/foguete.png");
+	background-image: url("images/foguete.png");
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
@@ -905,7 +905,7 @@ header .icon.circled {
 
 .fundo-nav {
 	position: relative;
-	background-image: url("../../images/foguete.png");
+	background-image: url("images/foguete.png");
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;

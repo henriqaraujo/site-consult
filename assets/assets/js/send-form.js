@@ -1,17 +1,25 @@
+
+/* 
 class formSubmit {
-    constructor() {
+    constructor(settings) {
         this.settings = settings;
-        this.form = document.querySelector(this.settings.form);
+        //Selecionando o formulário
+        this.form = document.querySelector(settings.form);
+        //Selecionando o botão de envio
         this.formButton = document.querySelector(this.settings.button);
+        //Se o formulário exister pegamos a url que no caso é o atributo action
         if (this.form) {
             this.url = this.form.getAttribute("action");
         }
         this.sendForm = this.sendForm.bind(this);
     }
+
+    //Mensagem de sucesso caso o formulario seja enviado
     displaySuccess() {
         this.form.innerHTML = this.settings.success;
     }
 
+    //Mensagem de erro caso o formulario não seja enviado
     displayError() {
         this.form.innerHTML = this.settings.error;
     }
@@ -35,10 +43,10 @@ class formSubmit {
         try {
             this.onSubmission(event);
             await fetch(this.url, {
-                metyhod: "POST",
+                method: "POST",
                 headers: {
                     "Content-Type": "application/json",
-                    accept: "application/json"
+                    Accept: "application/json"
                 },
                 body: JSON.stringify(this.getFormObject()),
             });
@@ -49,6 +57,8 @@ class formSubmit {
         }
     }
 
+    //Metodo para iniciar a classe
+    //Se o formulario existir, adicionamos um evento de clica ao botão que
     init() {
         if (this.form) this.formButton.addEventListener("click", () => this.sendForm);
         return this;
@@ -62,3 +72,5 @@ const formSubmit = new formSubmit({
     error: "<h1 class='error'>Não foi possível enviar sua mensagem<h1>",
 });
 formSubmit.init();
+*/
+

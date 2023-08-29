@@ -7,12 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="css/media-screen.css" />
-	<link rel="stylesheet" href="css/rows.css"/>
-	<link rel="stylesheet" href="css/tags.css"/>
-	<link rel="stylesheet" href="css/header.css"/>
-	<link rel="stylesheet" href="css/nav.css"/>
-	<link rel="stylesheet" href="css/footer.css"/>
-	<link rel="stylesheet" href="css/formulario.css"/>
+	<link rel="stylesheet" href="css/rows.css" />
+	<link rel="stylesheet" href="css/tags.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/nav.css" />
+	<link rel="stylesheet" href="css/footer.css" />
+	<link rel="stylesheet" href="css/formulario.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -38,6 +38,7 @@
 					<li><a href="servicos.html">SERVIÇOS</a></li>
 					<li><a href="contato.html">CONTATO</a></li>
 
+					<!--
 					<li>
 						<a href="#">MENU</a>
 						<ul>
@@ -56,7 +57,7 @@
 							<li><a href="#">Veroeros feugiat</a></li>
 						</ul>
 					</li>
-
+					-->
 				</ul>
 			</nav>
 
@@ -69,102 +70,24 @@
 				<div class="row gtr-200">
 					<div class="div-formulario" id="content">
 						<article id="main">
-							<header><h2><a href="#"></a></h2></header>
+							<section class="flex-icons">
+								<h2>Contatos</h2>
+								<div class="flex-icons2"> <img src="./css/icons/whatsapp40.png"> </div>
+								<div class="flex-icons2"> <a href="wa.me/551129370016">Clique aqui para nos chamar no WhatsApp</a></div>
+								<div> <img src="./css/icons/icons8-email-40.png"> </div>
+								<div> <a> contato@consultassessoria.com.br</a></div>
+								<div> <img src="./css/icons/icons8-telefone-desligado-40.png"> </div>
+								<div> <a>(11) 2937-0016</a></div>
+							</section>
 
-							<form action="https://formsubmit.co/ajax/tecnologia@consultassessoria.com.br" method="POST">
-
-								<input type="hidden" name="_next" value="http://127.0.0.1:5501/contato.html#"/>
-
-								<div class="form-header">
-									<div class="inputs-group"> 
-										<div class="input-box">
-											<label for="nome">Nome completo</label>
-											<input id="nome" name="nome" type="text" placeholder="Digite seu nome" required>
-										</div> 
-
-										<div class="input-box">
-											<label for="email">E-mail</label>
-											<input id="email" name="email" type="text" placeholder="Digite seu Sobrenome" required>
-										</div> 
-
-										<div class="input-box">
-											<label for="telefone">Telefone</label>
-											<input id="telefone" name="telefone" type="text" placeholder="(00) 1234-5678" required>
-										</div> 
-
-										<div class="input-box">
-											<label for="cidade">Cidade</label>
-											<input id="cidade" name="cidade" type="text" placeholder="Digite sua cidade" >
-										</div> 
-
-										<div class="input-box">
-											<label for="estado">Estado</label>
-											<select name="estado" aria-placeholder="estado">
-												<option value="">Selecione seu estado</option>
-												<option value="ac">Acre</option>
-												<option value="al">Alagoas</option>
-												<option value="ap">Amapá</option>
-												<option value="am">Amazonas</option>
-												<option value="ba">Bahia</option>
-												<option value="ce">Ceará</option>
-												<option value="df">Distrito Federal</option>
-												<option value="es">Espírito Santo</option>
-												<option value="go">Goiás</option>
-												<option value="ma">Maranhão</option>
-												<option value="mt">Mato Grosso</option>
-												<option value="ms">Mato Grosso Sul</option>
-												<option value="mg">Minas Gerais</option>
-												<option value="pa">Pará</option>
-												<option value="pb">Paraíba</option>
-												<option value="pr">Paraná</option>
-												<option value="pe">Pernambuco</option>
-												<option value="pi">Piauí</option>
-												<option value="rj">Rio de Janeiro</option>
-												<option value="rn">Rio Grande do Norte</option>
-												<option value="rs">Rio Grande do Sul</option>
-												<option value="ro">Rondônia</option>
-												<option value="rr">Roraima</option>
-												<option value="sx">Santa Catarina</option>
-												<option value="sp">São Paulo</option>
-												<option value="se">Sergipe</option>
-												<option value="to">Tocantins</option>
-											</select>
-										</div>
-
-										<div class="input-box">
-											<label for="assunto">Assunto</label>
-											<select name="assunto" aria-placeholder="assunto">
-												<option value="">Selecione um assunto</option>
-												<option value="orcamento">Orçamento</option>
-												<option value="reclamacao">Reclamação</option>
-												<option value="elogio">Elogio</option>
-											</select>
-										</div> 
-
-										<div class="input-box">
-											<label for="mensagem">Mensagem</label>
-											<textarea id="mensagem" type="text" name="mensagem" placeholder="Digite aqui sua mensagem..." rows="6px" required></textarea>
-										</div> 
-									</div>
-								</div>
-
-									<button type="submit" class="enviar-dados"><a href="#">Enviar mensagem</a></button>
-				
-							</form>
 						</article>
 					</div>
 
 					<div class="col-4 col-12-mobile" id="sidebar">
-						<hr class="first" />
-						<section>
-							<header><h3>Contato<a href="#"></a></h3></header>
-							<p>contato@consultassessoria.com.br</p>
-							<p>(11) 2937-0016</p>
-						</section>
-
 						<!--Maps-->
-
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.3837726765605!2d-46.54283532540274!3d-23.48268257885395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f8c0260760f%3A0x874d147eec22be03!2sR.%20Clauce%20de%20Souza%20Lima%2C%2074%20-%20Vila%20Augusta%2C%20Guarulhos%20-%20SP%2C%2007025-171!5e0!3m2!1spt-BR!2sbr!4v1689787625060!5m2!1spt-BR!2sbr"loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.3837726765605!2d-46.54283532540274!3d-23.48268257885395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f8c0260760f%3A0x874d147eec22be03!2sR.%20Clauce%20de%20Souza%20Lima%2C%2074%20-%20Vila%20Augusta%2C%20Guarulhos%20-%20SP%2C%2007025-171!5e0!3m2!1spt-BR!2sbr!4v1689787625060!5m2!1spt-BR!2sbr"
+							loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
 					</div>
 				</div>
 			</div>
@@ -182,17 +105,25 @@
 
 						<!-- Contact -->
 						<section class="contact">
-							<header><h3>Nos siga nas Redes sociais</h3></header>
+							<header>
+								<h3>Nos siga nas Redes sociais</h3>
+							</header>
 							<ul class="icons">
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span
+											class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span
+											class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-linkedin-in"><span
+											class="label">Linkedin</span></a></li>
 							</ul>
 						</section>
 
 						<!-- Copyright -->
 						<div class="copyright">
-							<ul class="menu"><li>&copy; Consult Soluções Empresariais & Contabilidade Eireli - Todos os direitos reservados - 202</li></ul>
+							<ul class="menu">
+								<li>&copy; Consult Soluções Empresariais & Contabilidade Eireli - Todos os direitos
+									reservados - 202</li>
+							</ul>
 						</div>
 					</div>
 				</div>

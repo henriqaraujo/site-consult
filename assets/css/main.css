@@ -208,7 +208,6 @@ ul.icons li a:hover {
 }
 
 
-
 /* Table */
 
 table {
@@ -335,13 +334,7 @@ table.default tfoot {
 	text-decoration: none;
 }
 
-.fundo-nav {
-	position: relative;
-	background-image: url("../../images/foguete.png");
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
-}
+
 
 /* Banner */
 
@@ -422,7 +415,7 @@ table.default tfoot {
 	width: 6em;
 	height: 6em;
 	border-radius: 100%;
-	background-color: rgba(72, 57, 73, 0.5);
+	background-color: #045592a2;
 	position: absolute;
 	top: 50%;
 	margin-top: -3em;
@@ -442,12 +435,13 @@ table.default tfoot {
 	position: absolute;
 	top: 50%;
 	margin: -1.5em 0 0 0;
-	background: url("images/arrow.svg") no-repeat center center;
+	background: url("/css/images/arrow.svg") no-repeat center center;
 }
 
+/*Muda a cor ao passar o mouse por cima da seta do carrossel*/
 .carousel .forward:hover:before,
 .carousel .backward:hover:before {
-	background-color: rgba(28, 43, 255, 0.637);
+	background-color: #b9dcfcc9;
 }
 
 .carousel .forward {
@@ -518,9 +512,10 @@ table.default tfoot {
 	line-height: 1;
 }
 
+/*Opacidade dos serviços da pagina inicial*/
 .carousel article:hover {
 	cursor: pointer;
-	background-color: #d0e4f5;
+	background-color: #b9dcfcc9;
 	opacity: 0.8;
 	transition: 0.7s ease-in;
 }
@@ -560,7 +555,7 @@ table.default tfoot {
 
 .border1:hover {
 	cursor: pointer;
-	background-color: #d0e4f5;
+	background-color: #b9dcfcc9;
 	opacity: 0.8;
 	transition: 0.7s ease-in;
 }

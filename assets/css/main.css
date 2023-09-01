@@ -53,7 +53,7 @@ article.special>footer {
 .image img {
 	display: block;
 	width: 100%;
-	height: 260px;
+	height: 250px;
 }
 
 .image.fit {
@@ -321,7 +321,8 @@ table.default tfoot {
 .wrapper {
 	background: #fff;
 	margin: 0 0 2em 0;
-	padding: 6em 0 6em 0;
+	padding: 3em 0 3em 0;
+
 }
 
 .font-servicos div a {
@@ -502,8 +503,9 @@ table.default tfoot {
 }
 
 .carousel article p {
-	text-align: center;
+	text-align: justify;
 	line-height: 1;
+	font-size: 1.2rem;
 }
 
 /*Opacidade dos serviços da pagina inicial*/
@@ -568,7 +570,7 @@ iframe {
 }
 
 video {
-	margin-top: 100px;
+	margin-top: 60px;
 	width: 50%;
 	height: auto;
 }

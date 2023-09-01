@@ -392,14 +392,6 @@
 		margin-left: 58.33333%;
 	}
 
-	.row>.col-8-normal {
-		width: 66.66667%;
-	}
-
-	.row>.off-8-normal {
-		margin-left: 66.66667%;
-	}
-
 	.row>.col-9-normal {
 		width: 75%;
 	}
@@ -717,10 +709,6 @@
 
 	.row>.off-7-narrow {
 		margin-left: 58.33333%;
-	}
-
-	.row>.col-8-narrow {
-		width: 66.66667%;
 	}
 
 	.row>.off-8-narrow {
@@ -1354,8 +1342,25 @@
 		width: 100%;
 	}
 
+	.col-8{
+		width: 100% !important;
+	}
+
+	.gtr-50{
+		padding: 0px !important;
+	}
+
+	.sidebar{
+		padding: 0px !important;
+	}
+
+	.gtr-200{
+		padding: 0px !important;
+	}
+
 	.col-4{
 		width: 100% !important;
+		
 	}
 	.grid{
 		display: block;

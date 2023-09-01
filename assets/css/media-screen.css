@@ -604,6 +604,18 @@
 		margin: 0 0 2em 0;
 		padding: 1em 0 1em 0;
 	}
+
+	#sidebar{
+		padding-top: 50px;
+	}
+
+	.grid section h2{
+		text-align: center;
+	}
+
+	.titulo_servico{
+		line-height: 1em !important;
+	}
 }
 
 
@@ -1347,7 +1359,6 @@
 	}
 	.grid{
 		display: block;
-
 	}
 
 	iframe{
@@ -1364,6 +1375,11 @@
 	.grid section div img{
 		width: 40px;
 		height: 40px;
+	}
+
+	.titulo_servico{
+		font-size: 3em !important;
+		line-height: 1em !important;
 	}
 }
 

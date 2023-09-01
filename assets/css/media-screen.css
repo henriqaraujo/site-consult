@@ -912,7 +912,7 @@
 	/* Basic */
 
 	h1 {
-		font-size: 4.5em !important;
+		font-size: 4em !important;
 		line-height: 1em !important;
 	}
 
@@ -1347,6 +1347,7 @@
 	}
 	.grid{
 		display: block;
+
 	}
 
 	iframe{
@@ -1358,7 +1359,11 @@
 		background: #fff;
 		margin: 0 0 2em 0;
 		padding: 1em 0 1em 0;
-		border: solid red 1px;
+	}
+
+	.grid section div img{
+		width: 40px;
+		height: 40px;
 	}
 }
 

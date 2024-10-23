@@ -5,11 +5,14 @@
 	flex-wrap: wrap;
 	box-sizing: border-box;
 	align-items: stretch;
+	margin: -40 0 0 -40;
 }
 
 .row>* {
 	box-sizing: border-box;
+	padding: 40px 0 0 40px;
 }
+
 
 .row.gtr-uniform>*> :last-child {
 	margin-bottom: 0;
@@ -74,7 +77,7 @@
 }
 
 .row>.col-8 {
-	width: 70%;
+	width: 100%;
 }
 
 .row>.col-9 {
@@ -114,17 +117,11 @@
 }
 
 .row.gtr-50>* {
-	padding: 20px;
+	padding: 15px;
+	width: 100%;
 }
 
-.row {
-	margin-top: -40px;
-	margin-left: -40px;
-}
 
-.row>* {
-	padding: 40px 0 0 40px;
-}
 
 .row.gtr-150 {
 	margin-top: -60px;

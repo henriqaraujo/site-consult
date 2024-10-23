@@ -319,12 +319,7 @@ table.default tfoot {
 	font-size: 1.25em;
 }
 
-.wrapper {
-	background: #fff;
-	margin: 0 0 2em 0;
-	padding: 3em 0 3em 0;
 
-}
 
 .font-servicos div a {
 	color: #005497;
@@ -538,7 +533,7 @@ table.default tfoot {
 	transition: max-height 0.4s ease-in-out;
 }
 
-.border1 {
+.border_servicos {
 	background-color: rgba(147, 208, 248, 0.096);
 	border-radius: 30px 0px;
 	margin-bottom: 0.7em;
@@ -550,7 +545,7 @@ table.default tfoot {
 	cursor: pointer;
 }
 
-.border1:hover {
+.border_servicos:hover {
 	cursor: pointer;
 	background-color: #b9dcfcc9;
 	opacity: 0.8;
